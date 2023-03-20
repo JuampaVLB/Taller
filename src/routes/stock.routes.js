@@ -5,8 +5,7 @@ const router = Router();
 import * as stockController from "../controllers/stock.controller.js";
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, "../public/img/tools");
-    console.log("estoy en imagen xd");
+    cb(null, "./public/img/tools");
   },
   filename: (req, file, cb) => {
     let param = req.params.name;
