@@ -9,6 +9,6 @@ router
   .get("/formulario", controllerApp.formulario)
   .get("/facturas", controllerApp.facturas)
   .get("/stock", controllerApp.stock)
-  .get("/error", controllerApp.error);
+  .get("/error", controllerApp.error)
 
 export default router;

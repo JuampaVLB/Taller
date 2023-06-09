@@ -43,7 +43,7 @@ app.use("/api/stock", stockRoutes);
 // Views
 
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "src/views"));
+app.set("views", path.join(__dirname, "src/Views"));
 
 // Static Files
 

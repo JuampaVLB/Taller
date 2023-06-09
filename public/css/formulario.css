@@ -19,8 +19,9 @@ TAMAÑOS
 #container #header {
   width: 100%;
   height: 4.5rem;
-  background: #fff;
   box-shadow: 10px 1px 10px black;
+  z-index: 100;
+  margin-bottom: 16px;
 }
 
 #container #header .navbar {
@@ -29,7 +30,7 @@ TAMAÑOS
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  z-index: 105;
 }
 
 #container #header .navbar .logo {
@@ -120,11 +121,13 @@ TAMAÑOS
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 5;
 }
 
 .imagen img {
   width: 90%;
   height: 90%;
+  z-index: 6;
   position: relative;
 }
 
