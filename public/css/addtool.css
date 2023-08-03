@@ -210,3 +210,15 @@
 
   }
 }
+
+@media (min-width: 1300px) {
+
+  #container #main form {
+    width: 400px;
+  }
+
+  img.image {
+    display: none;
+  }
+
+}
