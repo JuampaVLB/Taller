@@ -201,6 +201,13 @@
   color: white;
   font-weight: bold;
   border: none;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.input-wrapper .submit:hover {
+  background-color: #000;
+  transition: .2s ease;
 }
 
 @media (min-width: 1250px) {
